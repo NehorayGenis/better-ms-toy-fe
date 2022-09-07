@@ -1,0 +1,11 @@
+.login-container, .signup-container {
+  h3 {
+    padding-bottom: 6px;
+    border-bottom: 1px solid $border;
+  }
+  input{
+    // margin-bottom: 18px;
+    height: 35px;
+    padding-left: 8px;
+  }
+}

@@ -1,0 +1,44 @@
+
+.btn {
+  /* border: 1px solid rgb(153, 152, 152); */
+  box-shadow: 0 0px 1px 1px rgba(0, 0, 0, 0.35);
+  padding: 2px;
+  background-color: $btn;
+  
+  text-align: center;
+  &:hover:not(:disabled) {
+    background-color: lighten($btn, 8%);
+    box-shadow: 0 0px 3px 0 rgba(0, 0, 0, 0.35);
+  }
+}
+
+.login-btn, .signup-btn {
+  background-color: $btn;
+  height: 45px;
+  text-align: center;
+  border-top: none;
+  &:hover {
+    background-color: lighten($btn, 8%);
+
+  }
+}
+
+.sec-btn {
+  text-align: center;
+  text-decoration: underline;
+  color: blue;
+}
+
+
+.nav-bar-link {
+  padding: 10px 16px;
+  font-weight: 500;
+  transition: box-shadow 0.7s;
+  &.router-link-exact-active {
+    color: $pop-btn;
+  }
+  &:hover {
+    box-shadow: 0 2px 4px 0px $pop-btn;
+    color: $pop-btn;
+  }
+}

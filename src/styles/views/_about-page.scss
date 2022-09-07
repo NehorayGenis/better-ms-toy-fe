@@ -1,0 +1,22 @@
+.about-page-container {
+    text-align: center;
+    .branch-container {
+        h2 {
+            /* padding-top: 30px; */
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        .branch-list {
+            width: 300px;
+        }
+        .branch-preview {
+            cursor: pointer;
+            padding: 8px;
+            box-shadow: 0 0 2px rgba(65, 21, 99, 0.7);
+            margin-bottom: 8px;
+            &:hover {
+                box-shadow: 0 0 3px 1px rgba(65, 21, 99, 0.7);
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.main-layout {
+    height: 100vh;
+}
+
+.toy-list-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+}
